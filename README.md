@@ -1,2 +1,2 @@
 # Jenkins-Beginer-Advance
-Jenkins lab continous integration and deployment. 
+Jenkins lab continous integration and deployments. 
