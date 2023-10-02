@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  jenkins-server:
+    container_name: jenkins
+    image: jenkins/jenkins 
+    ports:
+      - "8080:8080"
+    volumes:
+      - "$PWD/jenkins_home:/var/jenkins_home"
+#     networks:
+#       - net
+
+# networks:
+#   net:
+# aadea4f94e3d40a2940af766a4e99998
+# /var/jenkins_home/config.xml
+# /var/jenkins_home/users/admin_6119867982216943324/config.xml
+
+
+
+  
